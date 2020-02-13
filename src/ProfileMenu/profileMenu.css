@@ -1,0 +1,17 @@
+#profileMenu {
+  top: 63px;
+  position: absolute;
+  left: 13.2vw;
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+  font-size: 14px;
+  height: 89.7vh;
+  visibility: hidden;
+}
+
+#profileMenu a {
+  display: block;
+  padding: 9px 5px;
+  width: 12vw;
+}

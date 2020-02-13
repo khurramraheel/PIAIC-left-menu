@@ -1,0 +1,50 @@
+* {
+  font-family: myfontRegular, sans-serif;
+  scroll-behavior: smooth;
+}
+#dashBoard .list-Items {
+  list-style: none;
+  font-size: 14px;
+  font-weight: normal;
+  transition: width 0.2s;
+  padding: 8px;
+}
+
+#dashBoard .main {
+  width: 76px;
+  height: 90vh;
+  background: #292a2c;
+  transition: width 0.5s;
+}
+#dashBoard .main:hover {
+  width: 180px;
+}
+#dashBoard ul {
+  padding-left: 0;
+}
+#dashBoard span {
+  visibility: hidden;
+  color: white;
+}
+#dashBoard .main:hover span {
+  visibility: visible;
+}
+
+#dashBoard .list-Items:hover {
+  cursor: pointer;
+  width: 180px;
+  background-color: #01645f;
+  color: white;
+}
+#dashBoard img {
+  width: 45px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+#dashBoard #profile:hover #profileMenu {
+  visibility: visible;
+}
+#dashBoard #payment:hover #payments {
+  visibility: visible;
+}
