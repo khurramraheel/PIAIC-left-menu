@@ -1,7 +1,5 @@
 import React from "react";
 import "./dashBoard.css";
-import "../paymentsMenu/pay.css";
-import "../ProfileMenu/profileMenu.css";
 import { PaymentMenu } from "../paymentsMenu/pmentMenu";
 import { Profile } from "../ProfileMenu/profileMenu";
 
@@ -9,8 +7,8 @@ export class Dashboard extends React.Component {
   render() {
     return (
       <div id="dashBoard">
-        <div style={{ background: "white", height: "10vh", display: "flex" }}>
-          <div style={{ background: "#01645f", width: "80px", height: "63px" }}>
+        <div className="topNav-Menu">
+          <div>
             <a href="/">
               <img
                 class="d-inline-block mt-1"
@@ -19,11 +17,10 @@ export class Dashboard extends React.Component {
               />
             </a>
           </div>
-          <div style={{ fontSize: "10px", color: "grey" }}>Sosodsdddd</div>
         </div>
 
         <div className="main">
-          <ul style={{ width: "300px" }}>
+          <ul>
             <li className="list-Items">
               {" "}
               <a>
